@@ -1,0 +1,27 @@
+export declare const ROOM_KEY_FORMAT_REGEX: RegExp;
+export declare const HEARTBEAT_INTERVAL_MS = 10000;
+export declare const HEARTBEAT_TIMEOUT_MS = 25000;
+export declare const DISCONNECT_GRACE_PERIOD_MS = 15000;
+export declare const CLEANUP_INTERVAL_MS = 30000;
+export declare const RATE_LIMIT_JOIN_WINDOW_MS = 60000;
+export declare const RATE_LIMIT_JOIN_MAX = 10;
+export declare const RATE_LIMIT_CREATE_WINDOW_MS = 3600000;
+export declare const RATE_LIMIT_CREATE_MAX = 20;
+export declare const RATE_LIMIT_MSG_WINDOW_MS = 60000;
+export declare const RATE_LIMIT_MSG_MAX = 120;
+export declare const MAX_FILE_SIZE_BYTES: number;
+export declare const ALLOWED_MIME_TYPES: string[];
+export declare const HKDF_SALT = "chatx-v1-salt-2024";
+export declare const HKDF_INFO_MSG = "chatx-message-encryption";
+export declare const HKDF_INFO_FILE = "chatx-file-encryption";
+export declare const AES_KEY_LENGTH = 256;
+export declare const AES_IV_LENGTH = 12;
+export declare const ADJECTIVES: string[];
+export declare const ANIMALS: string[];
+export declare const AVATAR_COLORS: string[];
+export declare const MAX_PARTICIPANTS_PER_ROOM = 50;
+export declare const MAX_MESSAGES_HISTORY = 200;
+export declare const APP_NAME = "ChatX";
+export declare const APP_TAGLINE = "Private conversations. Nothing permanent.";
+export declare const APP_VERSION = "1.0.0";
+//# sourceMappingURL=constants.d.ts.map

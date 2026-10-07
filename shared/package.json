@@ -1,0 +1,9 @@
+{
+  "name": "@chatx/shared",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Sunny Kumar Dubey",
+  "owner": "Sunny Kumar Dubey",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts"
+}
